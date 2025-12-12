@@ -30,9 +30,9 @@ theta: goal orientation (range: -180 ~ 180, unit: deg)
 ------------------------------------------------------
 """
 segment = 1
-segment1 = 0, 0, 90
-segment2 = 1.0, 0, 0
-segment3 = 0, 1.0, 0
+segment1 = 0.25, 0, 0
+segment2 = 0, 0.25, 0
+segment3 = 0, 0, 1
 
 class Turtlebot3Path():
 
