@@ -1,0 +1,32 @@
+[1.450s] Invoking command in '/home/rats/turtlebot3_ws/build/multicontrol': PYTHONPATH=/home/rats/turtlebot3_ws/build/multicontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rats/turtlebot3_ws/build/multicontrol/build
+[1.985s] running develop
+[2.310s] Removing /home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol.egg-link (link to .)
+[2.357s] Invoked command in '/home/rats/turtlebot3_ws/build/multicontrol' returned '0': PYTHONPATH=/home/rats/turtlebot3_ws/build/multicontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rats/turtlebot3_ws/build/multicontrol/build
+[2.359s] Invoking command in '/home/rats/turtlebot3_ws/src/multicontrol': PYTHONPATH=/home/rats/turtlebot3_ws/build/multicontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multicontrol build --build-base /home/rats/turtlebot3_ws/build/multicontrol/build install --record /home/rats/turtlebot3_ws/build/multicontrol/install.log --single-version-externally-managed install_data --force
+[3.248s] running egg_info
+[3.249s] writing ../../build/multicontrol/multicontrol.egg-info/PKG-INFO
+[3.250s] writing dependency_links to ../../build/multicontrol/multicontrol.egg-info/dependency_links.txt
+[3.250s] writing entry points to ../../build/multicontrol/multicontrol.egg-info/entry_points.txt
+[3.251s] writing requirements to ../../build/multicontrol/multicontrol.egg-info/requires.txt
+[3.251s] writing top-level names to ../../build/multicontrol/multicontrol.egg-info/top_level.txt
+[3.259s] reading manifest file '../../build/multicontrol/multicontrol.egg-info/SOURCES.txt'
+[3.259s] adding license file 'LICENSE'
+[3.265s] writing manifest file '../../build/multicontrol/multicontrol.egg-info/SOURCES.txt'
+[3.265s] running build
+[3.265s] running build_py
+[3.265s] running install
+[3.265s] running install_lib
+[3.268s] creating /home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol
+[3.268s] copying /home/rats/turtlebot3_ws/build/multicontrol/build/lib/multicontrol/mynode.py -> /home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol
+[3.269s] copying /home/rats/turtlebot3_ws/build/multicontrol/build/lib/multicontrol/__init__.py -> /home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol
+[3.269s] byte-compiling /home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol/mynode.py to mynode.cpython-310.pyc
+[3.279s] byte-compiling /home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol/__init__.py to __init__.cpython-310.pyc
+[3.279s] running install_data
+[3.279s] copying resource/multicontrol -> /home/rats/turtlebot3_ws/install/multicontrol/share/ament_index/resource_index/packages
+[3.279s] copying package.xml -> /home/rats/turtlebot3_ws/install/multicontrol/share/multicontrol
+[3.279s] running install_egg_info
+[3.282s] Copying ../../build/multicontrol/multicontrol.egg-info to /home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol-0.0.0-py3.10.egg-info
+[3.288s] running install_scripts
+[3.366s] Installing mynode script to /home/rats/turtlebot3_ws/install/multicontrol/lib/multicontrol
+[3.367s] writing list of installed files to '/home/rats/turtlebot3_ws/build/multicontrol/install.log'
+[3.485s] Invoked command in '/home/rats/turtlebot3_ws/src/multicontrol' returned '0': PYTHONPATH=/home/rats/turtlebot3_ws/build/multicontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multicontrol build --build-base /home/rats/turtlebot3_ws/build/multicontrol/build install --record /home/rats/turtlebot3_ws/build/multicontrol/install.log --single-version-externally-managed install_data --force
