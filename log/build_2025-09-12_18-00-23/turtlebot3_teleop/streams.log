@@ -1,0 +1,24 @@
+[0.806s] Invoking command in '/home/rats/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/rats/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rats/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rats/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[1.177s] running develop
+[1.452s] running egg_info
+[1.453s] creating turtlebot3_teleop.egg-info
+[1.453s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.453s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.453s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.453s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.453s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.454s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.456s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.457s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.460s] running build_ext
+[1.460s] Creating /home/rats/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.461s] Installing teleop_keyboard script to /home/rats/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.461s] 
+[1.461s] Installed /home/rats/turtlebot3_ws/build/turtlebot3_teleop
+[1.462s] running symlink_data
+[1.462s] creating /home/rats/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index
+[1.462s] creating /home/rats/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[1.462s] creating /home/rats/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.462s] symbolically linking /home/rats/turtlebot3_ws/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /home/rats/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.462s] symbolically linking /home/rats/turtlebot3_ws/build/turtlebot3_teleop/package.xml -> /home/rats/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[1.512s] Invoked command in '/home/rats/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/rats/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rats/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rats/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data

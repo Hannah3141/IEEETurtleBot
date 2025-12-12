@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing multicontrol.egg-info/PKG-INFO
+writing dependency_links to multicontrol.egg-info/dependency_links.txt
+writing entry points to multicontrol.egg-info/entry_points.txt
+writing requirements to multicontrol.egg-info/requires.txt
+writing top-level names to multicontrol.egg-info/top_level.txt
+reading manifest file 'multicontrol.egg-info/SOURCES.txt'
+writing manifest file 'multicontrol.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rats/turtlebot3_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol.egg-link (link to .)
+Installing mynode script to /home/rats/turtlebot3_ws/install/multicontrol/lib/multicontrol
+
+Installed /home/rats/turtlebot3_ws/build/multicontrol
+running symlink_data

@@ -1,0 +1,4 @@
+[console_scripts]
+piPub = test_auto.piPub:main
+test_auto = test_auto.test_auto:main
+

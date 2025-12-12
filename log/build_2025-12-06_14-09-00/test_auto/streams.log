@@ -1,0 +1,38 @@
+[1.510s] Invoking command in '/home/rats/turtlebot3_ws/src/turtlebot3/test_auto': PYTHONPATH=/home/rats/turtlebot3_ws/build/test_auto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rats/turtlebot3_ws/install/test_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_auto build --build-base /home/rats/turtlebot3_ws/build/test_auto/build install --record /home/rats/turtlebot3_ws/build/test_auto/install.log --single-version-externally-managed install_data
+[1.844s] running egg_info
+[1.845s] creating ../../../build/test_auto/test_auto.egg-info
+[1.845s] writing ../../../build/test_auto/test_auto.egg-info/PKG-INFO
+[1.845s] writing dependency_links to ../../../build/test_auto/test_auto.egg-info/dependency_links.txt
+[1.845s] writing entry points to ../../../build/test_auto/test_auto.egg-info/entry_points.txt
+[1.845s] writing requirements to ../../../build/test_auto/test_auto.egg-info/requires.txt
+[1.845s] writing top-level names to ../../../build/test_auto/test_auto.egg-info/top_level.txt
+[1.845s] writing manifest file '../../../build/test_auto/test_auto.egg-info/SOURCES.txt'
+[1.847s] reading manifest file '../../../build/test_auto/test_auto.egg-info/SOURCES.txt'
+[1.847s] adding license file 'LICENSE'
+[1.848s] writing manifest file '../../../build/test_auto/test_auto.egg-info/SOURCES.txt'
+[1.848s] running build
+[1.848s] running build_py
+[1.848s] creating /home/rats/turtlebot3_ws/build/test_auto/build
+[1.848s] creating /home/rats/turtlebot3_ws/build/test_auto/build/lib
+[1.848s] creating /home/rats/turtlebot3_ws/build/test_auto/build/lib/test_auto
+[1.849s] copying test_auto/test_auto.py -> /home/rats/turtlebot3_ws/build/test_auto/build/lib/test_auto
+[1.849s] copying test_auto/__init__.py -> /home/rats/turtlebot3_ws/build/test_auto/build/lib/test_auto
+[1.849s] running install
+[1.849s] running install_lib
+[1.850s] creating /home/rats/turtlebot3_ws/install/test_auto/lib/python3.10/site-packages/test_auto
+[1.850s] copying /home/rats/turtlebot3_ws/build/test_auto/build/lib/test_auto/test_auto.py -> /home/rats/turtlebot3_ws/install/test_auto/lib/python3.10/site-packages/test_auto
+[1.850s] copying /home/rats/turtlebot3_ws/build/test_auto/build/lib/test_auto/__init__.py -> /home/rats/turtlebot3_ws/install/test_auto/lib/python3.10/site-packages/test_auto
+[1.851s] byte-compiling /home/rats/turtlebot3_ws/install/test_auto/lib/python3.10/site-packages/test_auto/test_auto.py to test_auto.cpython-310.pyc
+[1.852s] byte-compiling /home/rats/turtlebot3_ws/install/test_auto/lib/python3.10/site-packages/test_auto/__init__.py to __init__.cpython-310.pyc
+[1.852s] running install_data
+[1.853s] creating /home/rats/turtlebot3_ws/install/test_auto/share/ament_index
+[1.853s] creating /home/rats/turtlebot3_ws/install/test_auto/share/ament_index/resource_index
+[1.853s] creating /home/rats/turtlebot3_ws/install/test_auto/share/ament_index/resource_index/packages
+[1.853s] copying resource/test_auto -> /home/rats/turtlebot3_ws/install/test_auto/share/ament_index/resource_index/packages
+[1.853s] copying package.xml -> /home/rats/turtlebot3_ws/install/test_auto/share/test_auto
+[1.853s] running install_egg_info
+[1.856s] Copying ../../../build/test_auto/test_auto.egg-info to /home/rats/turtlebot3_ws/install/test_auto/lib/python3.10/site-packages/test_auto-0.0.0-py3.10.egg-info
+[1.859s] running install_scripts
+[1.881s] Installing test_auto script to /home/rats/turtlebot3_ws/install/test_auto/lib/test_auto
+[1.881s] writing list of installed files to '/home/rats/turtlebot3_ws/build/test_auto/install.log'
+[1.907s] Invoked command in '/home/rats/turtlebot3_ws/src/turtlebot3/test_auto' returned '0': PYTHONPATH=/home/rats/turtlebot3_ws/build/test_auto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rats/turtlebot3_ws/install/test_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_auto build --build-base /home/rats/turtlebot3_ws/build/test_auto/build install --record /home/rats/turtlebot3_ws/build/test_auto/install.log --single-version-externally-managed install_data
