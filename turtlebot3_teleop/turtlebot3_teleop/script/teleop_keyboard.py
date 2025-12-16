@@ -36,6 +36,7 @@
 
 import os
 import select
+import inputs
 import sys
 
 from geometry_msgs.msg import Twist
@@ -90,7 +91,7 @@ def get_key(settings):
     if rlist:
         key = sys.stdin.read(1)
     else:
-        key = ''
+        key = ' '
 
     termios.tcsetattr(sys.stdin, termios.TCSADRAIN, settings)
     return key

@@ -49,7 +49,9 @@ setup(
 
             'turtlebot3_patrol_server = \
                 turtlebot3_example.turtlebot3_patrol.turtlebot3_patrol_server:main',
-            'turtlebot3_patrol_client = \
+
+            'turtlebot3_test_auto =  turtlebot3_example.turtlebot3_test_auto.turtlebot3_test_auto:main',
+                'turtlebot3_patrol_client = \
                 turtlebot3_example.turtlebot3_patrol.turtlebot3_patrol_client:main',
 
             'turtlebot3_obstacle_detection = '
