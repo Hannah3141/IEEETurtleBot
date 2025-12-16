@@ -29,7 +29,10 @@ class MinimalPublisher(Node):
 
     def timer_callback(self):
         msg = String()
-        msg.data = '(7, 1)' #pin number, 1/0 for high/low on pi
+        if(self.i < 10): #10 half seconds = 5 seconds on
+            msg.data = '(7, 1)' #pin number, 1/0 for high/low on pi
+        else:
+            msg.data = '(7, 0)'
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)
         self.i += 1

@@ -11,8 +11,6 @@ import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile
 
-#import RPi.GPIO as GPIO #Whooo let's hope this works
-
 ros_distro = os.environ.get('ROS_DISTRO', 'humble').lower()
 if ros_distro == 'humble':
     from geometry_msgs.msg import Twist as CmdVelMsg
@@ -36,7 +34,7 @@ class Turtlebot3Path():
         twist = CmdVelMsg()
         angle = math.atan2(math.sin(angle), math.cos(angle)) #I swear this line is doing nothing
 
-        if abs(angle) > 0.01:
+        if abs(angle) > 0.05: #this was 0.01 but I made it less accurate
             twist.angular.z = angular_velocity if angle > 0 else -angular_velocity
         else:
             step += 1
@@ -60,10 +58,7 @@ class Turtlebot3RelativeMove(Node):
     def __init__(self): #python needs to specify self all over the place so that different objects of the same type are distinct
         super().__init__('turtlebot3_relative_move') #its parent/super() is node
 
-        self.segment1 = 0.25, 0, 0 #x, y, theta (rad)
-
-        #forward, left forward, right, back
-        self.segments = [(0.25, 0, 0), (0, 0, 3.14)]
+        self.segments = [(0, 0, 1.7), (0.25, 0, 0), (0, 0, 0), (0.25, 0, 0)] #manually set step 2=straight/3=turn, x, y, theta (rad?)
 
         self.odom = Odometry()
         self.last_pose_x = 0.0
@@ -111,10 +106,11 @@ class Turtlebot3RelativeMove(Node):
 
         if not self.get_key_state: #if we don't have new user input, go ask for some (and it somehow waits until we get it, i guess stalls here? idk how interrupt works)
             #input_x, input_y, input_theta = self.get_key() #get user input
-            #TODO: there's definitely a more elegant way to do this, maybe involving dictionary??
             for i in range(len(self.segments)):
                 self.get_logger().info('current segment: ' + str(i))
                 input_x, input_y, input_theta = self.segments[i]
+            else:
+                self.generate_stop()
 
             input_x_global = ( #idk this math exactly
                 math.cos(self.last_pose_theta) * input_x - math.sin(self.last_pose_theta) * input_y
@@ -134,7 +130,7 @@ class Turtlebot3RelativeMove(Node):
                     self.goal_pose_y - self.last_pose_y,
                     self.goal_pose_x - self.last_pose_x)
                 angle = path_theta - self.last_pose_theta
-                angular_velocity = 0.1
+                angular_velocity = 0.2
 
                 self.get_logger().info('dest angle ' + str(path_theta)[:4] + 'step 1 ' + str(angle)[:4]) #add telemetry
 
@@ -186,30 +182,6 @@ class Turtlebot3RelativeMove(Node):
 
             self.get_logger().info('stop now')
             twist, self.step = Turtlebot3Path.turn(angle, angular_velocity, self.step)
-
-            if self.step == 1:
-                self.get_logger().info('what are you doing in here??')
-            elif self.step == 2: #drive forward the distance to the goal
-                distance = math.sqrt(
-                    (self.goal_pose_x - self.last_pose_x)**2 +
-                    (self.goal_pose_y - self.last_pose_y)**2)
-                linear_velocity = 0.05
-
-                self.get_logger().info('dest x ' + str(self.goal_pose_x)[:4] + 'step 2' + str(distance)[:4]) #add telemetry
-
-                twist, self.step = Turtlebot3Path.go_straight(distance, linear_velocity, self.step)
-
-            elif self.step == 3: #turn to goal heading
-                angle = self.goal_pose_theta - self.last_pose_theta
-                angular_velocity = 0.1
-
-                self.get_logger().info('dest angle ' + str(self.goal_pose_theta)[:4] + 'step 3' + str(angle)[:4]) #add telemetry
-
-                twist, self.step = Turtlebot3Path.turn(angle, angular_velocity, self.step)
-
-            elif self.step == 4: #restart, call the last user input invalid now since we already got there
-                self.step = 1
-                self.get_key_state = False
 
             if ros_distro == 'humble':
                 self.cmd_vel_pub.publish(twist)
@@ -280,7 +252,7 @@ def main(args=None):
     try:
         rclpy.spin(node) #this starts callbacks including the timer i think, docs here: https://docs.ros2.org/latest/api/rclpy/api/init_shutdown.html
 
-    except KeyboardInterrupt:
+    except KeyboardInterrupt or SystemExit:
         node.generate_stop()
         stop_twist = CmdVelMsg()
         node.cmd_vel_pub.publish(stop_twist) #publish an empty cmdVelMsg to stop
