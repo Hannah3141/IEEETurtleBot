@@ -1,51 +1,36 @@
-#include <AccelStepper.h>
+#include <Arduino.h>
 
-// Stepper pins
-#define IN1 D2
-#define IN2 D3
-#define IN3 D4
-#define IN4 D5
+#define RELAY_PIN A6  // Adjust to your actual relay pin
 
-// Relay pin
-#define RELAY_PIN D7
-
-// 28BYJ-48 half-step mode
-AccelStepper stepper(AccelStepper::HALF4WIRE, IN1, IN3, IN2, IN4);
 
 void setup() {
-  Serial.begin(115200);
-
+  Serial.begin(115200);  // USB serial to Pi
   pinMode(RELAY_PIN, OUTPUT);
-  digitalWrite(RELAY_PIN, HIGH); // relay OFF (active LOW)
-
-  stepper.setMaxSpeed(800);
-  stepper.setAcceleration(400);
-
-  Serial.println("ESP32 Ready");
+  digitalWrite(RELAY_PIN, LOW);  // relay off
 }
 
 void loop() {
-  if (Serial.available()) {
-    String cmd = Serial.readStringUntil('\n');
-    cmd.trim();
+  if (Serial.available() >= 2) {  // command byte + data byte
+    uint8_t cmd = Serial.read();
+    uint8_t value = Serial.read();
 
-    if (cmd.startsWith("MOTOR")) {
-      int steps = cmd.substring(6).toInt();
-      stepper.move(steps);
-      while (stepper.distanceToGo() != 0) {
-        stepper.run();
-      }
-      Serial.println("MOTOR DONE");
-    }
+    switch (cmd) {
+      case 0x01:  // Relay
+        if (value == 0x00) {
+          digitalWrite(RELAY_PIN, LOW);  // OFF (active-low)
+          Serial.write(0xAA);
+        } else if (value == 0x01) {
+          digitalWrite(RELAY_PIN, HIGH);  // ON (active-low)
+          Serial.write(0xAA);
+        } else {
+          Serial.write(0xFF);
+        }
+        break;
 
-    else if (cmd == "RELAY ON") {
-      digitalWrite(RELAY_PIN, LOW);
-      Serial.println("RELAY ON");
-    }
 
-    else if (cmd == "RELAY OFF") {
-      digitalWrite(RELAY_PIN, HIGH);
-      Serial.println("RELAY OFF");
+      default:
+        Serial.write(0xFF);  // ERROR: unknown command
+        break;
     }
   }
 }
