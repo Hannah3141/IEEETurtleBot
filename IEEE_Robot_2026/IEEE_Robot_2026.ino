@@ -1,28 +1,36 @@
-#include <Stepper.h>
+#include <Arduino.h>
 
-#define RELAY D5
-#define STEP_PER_REVOLUTION 2048  // for 28BYJ-48 stepper
+#define RELAY_PIN A6  // Adjust to your actual relay pin
 
-Stepper stepper(stepsPerRevolution, 8, 9, 10, 11);
 
 void setup() {
-  Serial.begin(9600);
-  pinMode(RELAY, OUTPUT);
-  digitalWrite(RELAY, LOW);
-  stepper.setSpeed(10);  //RPM
+  Serial.begin(115200);  // USB serial to Pi
+  pinMode(RELAY_PIN, OUTPUT);
+  digitalWrite(RELAY_PIN, LOW);  // relay off
 }
 
 void loop() {
-  if (Serial.available()) {
-    String piCommand = Serial.readStringUntil('\n');
+  if (Serial.available() >= 2) {  // command byte + data byte
+    uint8_t cmd = Serial.read();
+    uint8_t value = Serial.read();
 
-    if (piCommand == "RELAY_ON") {
-    digitalWrite(RELAY, HIGH);
-    } else if (piCommand == "RELAY_OFF") {
-      digitalWrite(relayPin, LOW);
-    } else if (piCommand.startsWith("MOVE")) {
-      int steps = piCommand.substring(5).toInt();
-      stepper.step(steps);
+    switch (cmd) {
+      case 0x01:  // Relay
+        if (value == 0x00) {
+          digitalWrite(RELAY_PIN, LOW);  // OFF (active-low)
+          Serial.write(0xAA);
+        } else if (value == 0x01) {
+          digitalWrite(RELAY_PIN, HIGH);  // ON (active-low)
+          Serial.write(0xAA);
+        } else {
+          Serial.write(0xFF);
+        }
+        break;
+
+
+      default:
+        Serial.write(0xFF);  // ERROR: unknown command
+        break;
     }
   }
 }
