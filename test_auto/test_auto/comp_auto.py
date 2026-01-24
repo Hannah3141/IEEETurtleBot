@@ -1,4 +1,3 @@
-#TODO: this maybe needs to be in its own package
 #from https://github.com/ROBOTIS-GIT/turtlebot3/blob/main/turtlebot3_example/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py
 
 '''
@@ -28,7 +27,7 @@ from rclpy.qos import QoSProfile
 
 rows, cols = (4, 8)
 field = [[0 for i in range(cols)] for j in range(rows)]
-arr[3][2] = 1 #starting sqaure (there are obviously no astroids here, but whatever)
+field[3][2] = 1 #starting sqaure (there are obviously no astroids here, but whatever)
 
 ros_distro = os.environ.get('ROS_DISTRO', 'humble').lower()
 if ros_distro == 'humble':
@@ -87,12 +86,17 @@ class Turtlebot3Path():
 
 class Turtlebot3RelativeMove(Node):
 
+    def intom(inch): #inch to meter conversion, bc IEEE uses in and turtlebot uses m
+        return inch * 0.0254
+    def degtorad(deg):
+        return deg * 3.141592 / 180
+
     def __init__(self): #python needs to specify self all over the place so that different objects of the same type are distinct
         super().__init__('turtlebot3_relative_move') #its parent/super() is node
 
         self.segment = 0 #idk when these numbers increase
-        self.segments = [(0, 0, 1.7), (0.25, 0, 0), (0, 0, 3.14), (0.25, 0, 0)] #starting step, but ill let it count up
-        #self.segments = [(2, .25, 0, 0), (3, 0, 0, 1.7), (2, .1, 0, 0), (3, 0, 0, 1.7), (2, .25, 0, 0), (3, 0, 0, -1.7)]
+        #so you see, this obviously drives forward to the center line, rotates left, drives to the beacon mast, rotates right, and drives into the cave
+        self.segments = [(intom(12), 0, 0), (0, 0, degtorad(-90)), (intom(36), 0, 0), (0, 0, 3.14), (intom(72), 0, 0)] #starting step, but ill let it count up
 
         self.odom = Odometry()
         self.last_pose_x = 0.0
