@@ -96,12 +96,20 @@ class Turtlebot3RelativeMove(Node):
 
         self.segment = 0 #idk when these numbers increase
         #so you see, this obviously drives forward to the center line, rotates left, drives to the beacon mast, rotates right, and drives into the cave
-        self.segments = [(intom(12), 0, 0), (0, 0, degtorad(-90)), (intom(36), 0, 0), (0, 0, 3.14), (intom(72), 0, 0)] #starting step, but ill let it count up
+        self.segments = [(intom(12), 0, 0), #drives forward to center line
+                         (0, 0, degtorad(-90)), #rotate left
+                         (intom(36), 0, 0), #drive to beacon mast
+                         (0, 0, 3.14), #rotate right
+                         (intom(72), 0, 0), #drive into cave
+                         (intom(-20), 0, 0), #drive out of cave (TODO: slower so we don't lose elements?)
+                         (0, 0, degtorad(90)), #rotate right to face CSC
+                         (intom(12), 0, 0) #drive forward into the CSC
+                        ]
 
         self.odom = Odometry()
         self.last_pose_x = 0.0
         self.last_pose_y = 0.0
-        self.last_pose_theta = 0.0 #i feel like we actually start at -1.7 or smth??
+        self.last_pose_theta = 0.0 
         self.goal_pose_x = 0.0
         self.goal_pose_y = 0.0
         self.goal_pose_theta = 0.0
@@ -132,6 +140,7 @@ class Turtlebot3RelativeMove(Node):
         self.init_odom_state = True #this tells us whether we should trust the data in last_pose
 
         self.get_logger().info('current odom data: ' + msg.pose.pose.position.x) #TODO: I think msg.pose.pose.position.x is an absolute position, let's see what format it is and how we can add it to the array
+        field[msg.pose.pose.position.x / 12][msg.pose.pose.position.y / 2] = 1 #TODO: where is 0??
 
     #if we have new odometry data, make a new path
     def update_callback(self): #called from the timer every 0.01 seconds
