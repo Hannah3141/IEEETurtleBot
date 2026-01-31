@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/rats/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk
-# Build directory: /home/rats/turtlebot3_ws/build/dynamixel_sdk
+# Source directory: /home/robotics/desktop_ws/src/DynamixelSDK/ros/dynamixel_sdk
+# Build directory: /home/robotics/desktop_ws/build/dynamixel_sdk
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rats/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk
+CMAKE_SOURCE_DIR = /home/robotics/desktop_ws/src/DynamixelSDK/ros/dynamixel_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rats/turtlebot3_ws/build/dynamixel_sdk
+CMAKE_BINARY_DIR = /home/robotics/desktop_ws/build/dynamixel_sdk
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rats/turtlebot3_ws/build/dynamixel_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rats/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk /home/rats/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk /home/rats/turtlebot3_ws/build/dynamixel_sdk /home/rats/turtlebot3_ws/build/dynamixel_sdk /home/rats/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotics/desktop_ws/build/dynamixel_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotics/desktop_ws/src/DynamixelSDK/ros/dynamixel_sdk /home/robotics/desktop_ws/src/DynamixelSDK/ros/dynamixel_sdk /home/robotics/desktop_ws/build/dynamixel_sdk /home/robotics/desktop_ws/build/dynamixel_sdk /home/robotics/desktop_ws/build/dynamixel_sdk/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

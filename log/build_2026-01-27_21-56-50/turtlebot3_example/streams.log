@@ -1,0 +1,27 @@
+[3.858s] Invoking command in '/home/robotics/desktop_ws/src/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/robotics/desktop_ws/install/turtlebot3_msgs:/home/robotics/desktop_ws/install/turtlebot3:/home/robotics/desktop_ws/install/turtlebot3_bringup:/home/robotics/desktop_ws/install/turtlebot3_node:/home/robotics/desktop_ws/install/turtlebot3_navigation2:/home/robotics/desktop_ws/install/turtlebot3_description:/home/robotics/desktop_ws/install/turtlebot3_cartographer:/home/robotics/desktop_ws/install/dynamixel_sdk_examples:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces:/home/robotics/desktop_ws/install/dynamixel_sdk:/home/robotics/pi_ws/install/turtlebot3:/home/robotics/pi_ws/install/turtlebot3_bringup:/home/robotics/pi_ws/install/turtlebot3_node:/home/robotics/pi_ws/install/turtlebot3_description:/home/robotics/pi_ws/install/ld08_driver:/home/robotics/pi_ws/install/coin_d4_driver PYTHONPATH=/home/robotics/desktop_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/robotics/desktop_ws/build/turtlebot3_example/build install --record /home/robotics/desktop_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[4.943s] running egg_info
+[4.946s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[4.949s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[4.950s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[4.950s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[4.951s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[4.962s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[4.970s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[4.971s] running build
+[4.971s] running build_py
+[4.992s] running install
+[4.993s] running install_lib
+[5.016s] running install_data
+[5.016s] running install_egg_info
+[5.025s] removing '/home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.3-py3.10.egg-info' (and everything under it)
+[5.027s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.3-py3.10.egg-info
+[5.034s] running install_scripts
+[5.118s] Installing turtlebot3_absolute_move script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.120s] Installing turtlebot3_interactive_marker script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.121s] Installing turtlebot3_obstacle_detection script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.122s] Installing turtlebot3_patrol_client script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.122s] Installing turtlebot3_patrol_server script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.123s] Installing turtlebot3_relative_move script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.124s] Installing turtlebot3_test_auto script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.128s] writing list of installed files to '/home/robotics/desktop_ws/build/turtlebot3_example/install.log'
+[5.241s] Invoked command in '/home/robotics/desktop_ws/src/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/robotics/desktop_ws/install/turtlebot3_msgs:/home/robotics/desktop_ws/install/turtlebot3:/home/robotics/desktop_ws/install/turtlebot3_bringup:/home/robotics/desktop_ws/install/turtlebot3_node:/home/robotics/desktop_ws/install/turtlebot3_navigation2:/home/robotics/desktop_ws/install/turtlebot3_description:/home/robotics/desktop_ws/install/turtlebot3_cartographer:/home/robotics/desktop_ws/install/dynamixel_sdk_examples:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces:/home/robotics/desktop_ws/install/dynamixel_sdk:/home/robotics/pi_ws/install/turtlebot3:/home/robotics/pi_ws/install/turtlebot3_bringup:/home/robotics/pi_ws/install/turtlebot3_node:/home/robotics/pi_ws/install/turtlebot3_description:/home/robotics/pi_ws/install/ld08_driver:/home/robotics/pi_ws/install/coin_d4_driver PYTHONPATH=/home/robotics/desktop_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/robotics/desktop_ws/build/turtlebot3_example/build install --record /home/robotics/desktop_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data

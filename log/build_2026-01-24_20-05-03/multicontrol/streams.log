@@ -1,0 +1,38 @@
+[8.009s] Invoking command in '/home/robotics/desktop_ws/src/multicontrol': PYTHONPATH=/home/robotics/desktop_ws/build/multicontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multicontrol build --build-base /home/robotics/desktop_ws/build/multicontrol/build install --record /home/robotics/desktop_ws/build/multicontrol/install.log --single-version-externally-managed install_data
+[11.749s] running egg_info
+[11.752s] creating ../../build/multicontrol/multicontrol.egg-info
+[11.753s] writing ../../build/multicontrol/multicontrol.egg-info/PKG-INFO
+[11.755s] writing dependency_links to ../../build/multicontrol/multicontrol.egg-info/dependency_links.txt
+[11.756s] writing entry points to ../../build/multicontrol/multicontrol.egg-info/entry_points.txt
+[11.757s] writing requirements to ../../build/multicontrol/multicontrol.egg-info/requires.txt
+[11.759s] writing top-level names to ../../build/multicontrol/multicontrol.egg-info/top_level.txt
+[11.760s] writing manifest file '../../build/multicontrol/multicontrol.egg-info/SOURCES.txt'
+[11.769s] reading manifest file '../../build/multicontrol/multicontrol.egg-info/SOURCES.txt'
+[11.771s] adding license file 'LICENSE'
+[11.775s] writing manifest file '../../build/multicontrol/multicontrol.egg-info/SOURCES.txt'
+[11.776s] running build
+[11.777s] running build_py
+[11.778s] creating /home/robotics/desktop_ws/build/multicontrol/build
+[11.779s] creating /home/robotics/desktop_ws/build/multicontrol/build/lib
+[11.780s] creating /home/robotics/desktop_ws/build/multicontrol/build/lib/multicontrol
+[11.780s] copying multicontrol/__init__.py -> /home/robotics/desktop_ws/build/multicontrol/build/lib/multicontrol
+[11.781s] copying multicontrol/mynode.py -> /home/robotics/desktop_ws/build/multicontrol/build/lib/multicontrol
+[11.785s] running install
+[11.790s] running install_lib
+[11.794s] creating /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol
+[11.795s] copying /home/robotics/desktop_ws/build/multicontrol/build/lib/multicontrol/__init__.py -> /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol
+[11.804s] copying /home/robotics/desktop_ws/build/multicontrol/build/lib/multicontrol/mynode.py -> /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol
+[11.808s] byte-compiling /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol/__init__.py to __init__.cpython-310.pyc
+[11.818s] byte-compiling /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol/mynode.py to mynode.cpython-310.pyc
+[11.825s] running install_data
+[11.834s] creating /home/robotics/desktop_ws/install/multicontrol/share/ament_index
+[11.840s] creating /home/robotics/desktop_ws/install/multicontrol/share/ament_index/resource_index
+[11.841s] creating /home/robotics/desktop_ws/install/multicontrol/share/ament_index/resource_index/packages
+[11.843s] copying resource/multicontrol -> /home/robotics/desktop_ws/install/multicontrol/share/ament_index/resource_index/packages
+[11.845s] copying package.xml -> /home/robotics/desktop_ws/install/multicontrol/share/multicontrol
+[11.846s] running install_egg_info
+[11.857s] Copying ../../build/multicontrol/multicontrol.egg-info to /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol-0.0.0-py3.10.egg-info
+[11.890s] running install_scripts
+[12.133s] Installing mynode script to /home/robotics/desktop_ws/install/multicontrol/lib/multicontrol
+[12.136s] writing list of installed files to '/home/robotics/desktop_ws/build/multicontrol/install.log'
+[13.487s] Invoked command in '/home/robotics/desktop_ws/src/multicontrol' returned '0': PYTHONPATH=/home/robotics/desktop_ws/build/multicontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multicontrol build --build-base /home/robotics/desktop_ws/build/multicontrol/build install --record /home/robotics/desktop_ws/build/multicontrol/install.log --single-version-externally-managed install_data

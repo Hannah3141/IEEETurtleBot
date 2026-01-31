@@ -14,5 +14,6 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 test_auto/__init__.py
+test_auto/comp_auto.py
 test_auto/piPub.py
 test_auto/test_auto.py

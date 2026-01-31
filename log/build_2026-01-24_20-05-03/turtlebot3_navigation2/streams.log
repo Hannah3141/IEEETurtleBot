@@ -1,0 +1,56 @@
+[0.052s] Invoking command in '/home/robotics/desktop_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/pi_ws/install/turtlebot3_teleop:/home/robotics/pi_ws/install/turtlebot3_example:/home/robotics/pi_ws/install/piSub:/home/robotics/desktop_ws/install/turtlebot3_teleop:/home/robotics/desktop_ws/install/turtlebot3_example:/home/robotics/desktop_ws/install/test_auto:/home/robotics/desktop_ws/install/multicontrol:/opt/ros/humble /usr/bin/cmake /home/robotics/desktop_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/robotics/desktop_ws/install/turtlebot3_navigation2
+[0.657s] -- The C compiler identification is GNU 11.4.0
+[1.254s] -- The CXX compiler identification is GNU 11.4.0
+[1.290s] -- Detecting C compiler ABI info
+[1.821s] -- Detecting C compiler ABI info - done
+[1.850s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.853s] -- Detecting C compile features
+[1.855s] -- Detecting C compile features - done
+[1.870s] -- Detecting CXX compiler ABI info
+[2.371s] -- Detecting CXX compiler ABI info - done
+[2.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.421s] -- Detecting CXX compile features
+[2.426s] -- Detecting CXX compile features - done
+[2.481s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.224s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.781s] -- Configuring done
+[6.830s] -- Generating done
+[6.864s] -- Build files have been written to: /home/robotics/desktop_ws/build/turtlebot3_navigation2
+[6.888s] Invoked command in '/home/robotics/desktop_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/pi_ws/install/turtlebot3_teleop:/home/robotics/pi_ws/install/turtlebot3_example:/home/robotics/pi_ws/install/piSub:/home/robotics/desktop_ws/install/turtlebot3_teleop:/home/robotics/desktop_ws/install/turtlebot3_example:/home/robotics/desktop_ws/install/test_auto:/home/robotics/desktop_ws/install/multicontrol:/opt/ros/humble /usr/bin/cmake /home/robotics/desktop_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/robotics/desktop_ws/install/turtlebot3_navigation2
+[6.890s] Invoking command in '/home/robotics/desktop_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/pi_ws/install/turtlebot3_teleop:/home/robotics/pi_ws/install/turtlebot3_example:/home/robotics/pi_ws/install/piSub:/home/robotics/desktop_ws/install/turtlebot3_teleop:/home/robotics/desktop_ws/install/turtlebot3_example:/home/robotics/desktop_ws/install/test_auto:/home/robotics/desktop_ws/install/multicontrol:/opt/ros/humble /usr/bin/cmake --build /home/robotics/desktop_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[7.245s] Invoked command in '/home/robotics/desktop_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/pi_ws/install/turtlebot3_teleop:/home/robotics/pi_ws/install/turtlebot3_example:/home/robotics/pi_ws/install/piSub:/home/robotics/desktop_ws/install/turtlebot3_teleop:/home/robotics/desktop_ws/install/turtlebot3_example:/home/robotics/desktop_ws/install/test_auto:/home/robotics/desktop_ws/install/multicontrol:/opt/ros/humble /usr/bin/cmake --build /home/robotics/desktop_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[7.247s] Invoking command in '/home/robotics/desktop_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/pi_ws/install/turtlebot3_teleop:/home/robotics/pi_ws/install/turtlebot3_example:/home/robotics/pi_ws/install/piSub:/home/robotics/desktop_ws/install/turtlebot3_teleop:/home/robotics/desktop_ws/install/turtlebot3_example:/home/robotics/desktop_ws/install/test_auto:/home/robotics/desktop_ws/install/multicontrol:/opt/ros/humble /usr/bin/cmake --install /home/robotics/desktop_ws/build/turtlebot3_navigation2
+[7.336s] -- Install configuration: ""
+[7.336s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[7.349s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[7.358s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[7.364s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[7.375s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[7.403s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[7.408s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[7.414s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[7.418s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[7.423s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[7.430s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble
+[7.433s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[7.445s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[7.453s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[7.465s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[7.473s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[7.479s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[7.492s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[7.499s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[7.519s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[7.533s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[7.539s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[7.543s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[7.546s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[7.549s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[7.552s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[7.556s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[7.559s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[7.561s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[7.564s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[7.567s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[7.571s] -- Installing: /home/robotics/desktop_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[7.587s] Invoked command in '/home/robotics/desktop_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics/pi_ws/install/turtlebot3_teleop:/home/robotics/pi_ws/install/turtlebot3_example:/home/robotics/pi_ws/install/piSub:/home/robotics/desktop_ws/install/turtlebot3_teleop:/home/robotics/desktop_ws/install/turtlebot3_example:/home/robotics/desktop_ws/install/test_auto:/home/robotics/desktop_ws/install/multicontrol:/opt/ros/humble /usr/bin/cmake --install /home/robotics/desktop_ws/build/turtlebot3_navigation2

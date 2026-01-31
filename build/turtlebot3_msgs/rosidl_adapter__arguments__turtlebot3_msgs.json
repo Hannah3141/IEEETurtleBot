@@ -1,12 +1,12 @@
 {
   "package_name": "turtlebot3_msgs",
   "non_idl_tuples": [
-    "/home/rats/turtlebot3_ws/src/turtlebot3_msgs:msg/SensorState.msg",
-    "/home/rats/turtlebot3_ws/src/turtlebot3_msgs:msg/Sound.msg",
-    "/home/rats/turtlebot3_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
-    "/home/rats/turtlebot3_ws/src/turtlebot3_msgs:srv/Sound.srv",
-    "/home/rats/turtlebot3_ws/src/turtlebot3_msgs:srv/Dqn.srv",
-    "/home/rats/turtlebot3_ws/src/turtlebot3_msgs:srv/Goal.srv",
-    "/home/rats/turtlebot3_ws/src/turtlebot3_msgs:action/Patrol.action"
+    "/home/robotics/desktop_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/robotics/desktop_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/robotics/desktop_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/robotics/desktop_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/robotics/desktop_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/robotics/desktop_ws/src/turtlebot3_msgs:srv/Goal.srv",
+    "/home/robotics/desktop_ws/src/turtlebot3_msgs:action/Patrol.action"
   ]
 }

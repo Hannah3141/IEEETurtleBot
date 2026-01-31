@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rats/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2
+CMAKE_SOURCE_DIR = /home/robotics/desktop_ws/src/turtlebot3/turtlebot3_navigation2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rats/turtlebot3_ws/build/turtlebot3_navigation2
+CMAKE_BINARY_DIR = /home/robotics/desktop_ws/build/turtlebot3_navigation2
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rats/turtlebot3_ws/build/turtlebot3_navigation2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rats/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 /home/rats/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 /home/rats/turtlebot3_ws/build/turtlebot3_navigation2 /home/rats/turtlebot3_ws/build/turtlebot3_navigation2 /home/rats/turtlebot3_ws/build/turtlebot3_navigation2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotics/desktop_ws/build/turtlebot3_navigation2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotics/desktop_ws/src/turtlebot3/turtlebot3_navigation2 /home/robotics/desktop_ws/src/turtlebot3/turtlebot3_navigation2 /home/robotics/desktop_ws/build/turtlebot3_navigation2 /home/robotics/desktop_ws/build/turtlebot3_navigation2 /home/robotics/desktop_ws/build/turtlebot3_navigation2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

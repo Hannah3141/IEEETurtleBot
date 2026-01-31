@@ -1,0 +1,91 @@
+[3.727s] Invoking command in '/home/robotics/desktop_ws/src/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/robotics/desktop_ws/install/turtlebot3_msgs:/home/robotics/pi_ws/install/turtlebot3:/home/robotics/pi_ws/install/turtlebot3_bringup:/home/robotics/pi_ws/install/turtlebot3_node:/home/robotics/pi_ws/install/turtlebot3_description:/home/robotics/pi_ws/install/ld08_driver:/home/robotics/pi_ws/install/coin_d4_driver:/home/robotics/desktop_ws/install/turtlebot3:/home/robotics/desktop_ws/install/turtlebot3_simulations:/home/robotics/desktop_ws/install/turtlebot3_bringup:/home/robotics/desktop_ws/install/turtlebot3_node:/home/robotics/desktop_ws/install/turtlebot3_navigation2:/home/robotics/desktop_ws/install/turtlebot3_fake_node:/home/robotics/desktop_ws/install/turtlebot3_manipulation_gazebo:/home/robotics/desktop_ws/install/turtlebot3_gazebo:/home/robotics/desktop_ws/install/turtlebot3_description:/home/robotics/desktop_ws/install/turtlebot3_cartographer:/home/robotics/desktop_ws/install/dynamixel_sdk_examples:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces:/home/robotics/desktop_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/robotics/desktop_ws/install/turtlebot3_msgs/lib:/home/robotics/pi_ws/install/coin_d4_driver/lib:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/robotics/desktop_ws/install/dynamixel_sdk/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/robotics/desktop_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/robotics/desktop_ws/build/turtlebot3_example/build install --record /home/robotics/desktop_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[5.045s] running egg_info
+[5.048s] creating ../../../build/turtlebot3_example/turtlebot3_example.egg-info
+[5.049s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[5.050s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[5.052s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[5.053s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[5.054s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[5.055s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[5.066s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[5.070s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[5.071s] running build
+[5.072s] running build_py
+[5.073s] creating /home/robotics/desktop_ws/build/turtlebot3_example/build
+[5.073s] creating /home/robotics/desktop_ws/build/turtlebot3_example/build/lib
+[5.074s] creating /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example
+[5.075s] copying turtlebot3_example/__init__.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example
+[5.076s] creating /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[5.076s] copying turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[5.076s] copying turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[5.079s] creating /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[5.081s] copying turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[5.084s] copying turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[5.086s] creating /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[5.088s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[5.090s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[5.093s] creating /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_test_auto
+[5.094s] copying turtlebot3_example/turtlebot3_test_auto/__init__.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_test_auto
+[5.094s] copying turtlebot3_example/turtlebot3_test_auto/turtlebot3_test_auto.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_test_auto
+[5.097s] creating /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[5.097s] copying turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[5.098s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[5.100s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[5.102s] creating /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[5.103s] copying turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[5.104s] copying turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[5.108s] running install
+[5.110s] running install_lib
+[5.113s] creating /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[5.115s] creating /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[5.115s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[5.116s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[5.117s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[5.118s] creating /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+[5.119s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+[5.120s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+[5.121s] creating /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[5.122s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[5.123s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[5.124s] creating /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_test_auto
+[5.125s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_test_auto/__init__.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_test_auto
+[5.126s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_test_auto/turtlebot3_test_auto.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_test_auto
+[5.127s] creating /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[5.128s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[5.128s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[5.130s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[5.131s] creating /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[5.132s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[5.133s] copying /home/robotics/desktop_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[5.136s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/__init__.py to __init__.cpython-310.pyc
+[5.138s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py to turtlebot3_absolute_move.cpython-310.pyc
+[5.144s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/__init__.py to __init__.cpython-310.pyc
+[5.145s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py to turtlebot3_relative_move.cpython-310.pyc
+[5.150s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/__init__.py to __init__.cpython-310.pyc
+[5.152s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-310.pyc
+[5.155s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-310.pyc
+[5.156s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_test_auto/__init__.py to __init__.cpython-310.pyc
+[5.158s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_test_auto/turtlebot3_test_auto.py to turtlebot3_test_auto.cpython-310.pyc
+[5.164s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/__init__.py to __init__.cpython-310.pyc
+[5.165s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-310.pyc
+[5.170s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-310.pyc
+[5.173s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/__init__.py to __init__.cpython-310.pyc
+[5.175s] byte-compiling /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py to turtlebot3_interactive_marker.cpython-310.pyc
+[5.179s] running install_data
+[5.181s] creating /home/robotics/desktop_ws/install/turtlebot3_example/share/ament_index
+[5.181s] creating /home/robotics/desktop_ws/install/turtlebot3_example/share/ament_index/resource_index
+[5.182s] creating /home/robotics/desktop_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[5.183s] copying resource/turtlebot3_example -> /home/robotics/desktop_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[5.183s] copying package.xml -> /home/robotics/desktop_ws/install/turtlebot3_example/share/turtlebot3_example
+[5.184s] running install_egg_info
+[5.191s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.3-py3.10.egg-info
+[5.199s] running install_scripts
+[5.301s] Installing turtlebot3_absolute_move script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.302s] Installing turtlebot3_interactive_marker script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.303s] Installing turtlebot3_obstacle_detection script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.304s] Installing turtlebot3_patrol_client script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.306s] Installing turtlebot3_patrol_server script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.307s] Installing turtlebot3_relative_move script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.308s] Installing turtlebot3_test_auto script to /home/robotics/desktop_ws/install/turtlebot3_example/lib/turtlebot3_example
+[5.314s] writing list of installed files to '/home/robotics/desktop_ws/build/turtlebot3_example/install.log'
+[5.456s] Invoked command in '/home/robotics/desktop_ws/src/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/robotics/desktop_ws/install/turtlebot3_msgs:/home/robotics/pi_ws/install/turtlebot3:/home/robotics/pi_ws/install/turtlebot3_bringup:/home/robotics/pi_ws/install/turtlebot3_node:/home/robotics/pi_ws/install/turtlebot3_description:/home/robotics/pi_ws/install/ld08_driver:/home/robotics/pi_ws/install/coin_d4_driver:/home/robotics/desktop_ws/install/turtlebot3:/home/robotics/desktop_ws/install/turtlebot3_simulations:/home/robotics/desktop_ws/install/turtlebot3_bringup:/home/robotics/desktop_ws/install/turtlebot3_node:/home/robotics/desktop_ws/install/turtlebot3_navigation2:/home/robotics/desktop_ws/install/turtlebot3_fake_node:/home/robotics/desktop_ws/install/turtlebot3_manipulation_gazebo:/home/robotics/desktop_ws/install/turtlebot3_gazebo:/home/robotics/desktop_ws/install/turtlebot3_description:/home/robotics/desktop_ws/install/turtlebot3_cartographer:/home/robotics/desktop_ws/install/dynamixel_sdk_examples:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces:/home/robotics/desktop_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/robotics/desktop_ws/install/turtlebot3_msgs/lib:/home/robotics/pi_ws/install/coin_d4_driver/lib:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/robotics/desktop_ws/install/dynamixel_sdk/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/robotics/desktop_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/robotics/desktop_ws/build/turtlebot3_example/build install --record /home/robotics/desktop_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data

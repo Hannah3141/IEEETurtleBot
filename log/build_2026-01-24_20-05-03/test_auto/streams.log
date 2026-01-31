@@ -1,0 +1,45 @@
+[8.268s] Invoking command in '/home/robotics/desktop_ws/src/turtlebot3/test_auto': PYTHONPATH=/home/robotics/desktop_ws/build/test_auto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_auto build --build-base /home/robotics/desktop_ws/build/test_auto/build install --record /home/robotics/desktop_ws/build/test_auto/install.log --single-version-externally-managed install_data
+[10.374s] running egg_info
+[10.378s] creating ../../../build/test_auto/test_auto.egg-info
+[10.379s] writing ../../../build/test_auto/test_auto.egg-info/PKG-INFO
+[10.381s] writing dependency_links to ../../../build/test_auto/test_auto.egg-info/dependency_links.txt
+[10.383s] writing entry points to ../../../build/test_auto/test_auto.egg-info/entry_points.txt
+[10.384s] writing requirements to ../../../build/test_auto/test_auto.egg-info/requires.txt
+[10.385s] writing top-level names to ../../../build/test_auto/test_auto.egg-info/top_level.txt
+[10.386s] writing manifest file '../../../build/test_auto/test_auto.egg-info/SOURCES.txt'
+[10.397s] reading manifest file '../../../build/test_auto/test_auto.egg-info/SOURCES.txt'
+[10.399s] adding license file 'LICENSE'
+[10.404s] writing manifest file '../../../build/test_auto/test_auto.egg-info/SOURCES.txt'
+[10.404s] running build
+[10.405s] running build_py
+[10.406s] creating /home/robotics/desktop_ws/build/test_auto/build
+[10.406s] creating /home/robotics/desktop_ws/build/test_auto/build/lib
+[10.407s] creating /home/robotics/desktop_ws/build/test_auto/build/lib/test_auto
+[10.408s] copying test_auto/__init__.py -> /home/robotics/desktop_ws/build/test_auto/build/lib/test_auto
+[10.408s] copying test_auto/comp_auto.py -> /home/robotics/desktop_ws/build/test_auto/build/lib/test_auto
+[12.693s] copying test_auto/test_auto.py -> /home/robotics/desktop_ws/build/test_auto/build/lib/test_auto
+[13.179s] copying test_auto/piPub.py -> /home/robotics/desktop_ws/build/test_auto/build/lib/test_auto
+[13.257s] running install
+[13.258s] running install_lib
+[13.264s] creating /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto
+[13.265s] copying /home/robotics/desktop_ws/build/test_auto/build/lib/test_auto/__init__.py -> /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto
+[13.266s] copying /home/robotics/desktop_ws/build/test_auto/build/lib/test_auto/comp_auto.py -> /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto
+[13.267s] copying /home/robotics/desktop_ws/build/test_auto/build/lib/test_auto/test_auto.py -> /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto
+[13.289s] copying /home/robotics/desktop_ws/build/test_auto/build/lib/test_auto/piPub.py -> /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto
+[13.292s] byte-compiling /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto/__init__.py to __init__.cpython-310.pyc
+[13.294s] byte-compiling /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto/comp_auto.py to comp_auto.cpython-310.pyc
+[13.316s] byte-compiling /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto/test_auto.py to test_auto.cpython-310.pyc
+[13.323s] byte-compiling /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto/piPub.py to piPub.cpython-310.pyc
+[13.326s] running install_data
+[13.326s] creating /home/robotics/desktop_ws/install/test_auto/share/ament_index
+[13.327s] creating /home/robotics/desktop_ws/install/test_auto/share/ament_index/resource_index
+[13.328s] creating /home/robotics/desktop_ws/install/test_auto/share/ament_index/resource_index/packages
+[13.329s] copying resource/test_auto -> /home/robotics/desktop_ws/install/test_auto/share/ament_index/resource_index/packages
+[13.329s] copying package.xml -> /home/robotics/desktop_ws/install/test_auto/share/test_auto
+[13.341s] running install_egg_info
+[13.363s] Copying ../../../build/test_auto/test_auto.egg-info to /home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages/test_auto-0.0.0-py3.10.egg-info
+[13.371s] running install_scripts
+[13.582s] Installing piPub script to /home/robotics/desktop_ws/install/test_auto/lib/test_auto
+[13.583s] Installing test_auto script to /home/robotics/desktop_ws/install/test_auto/lib/test_auto
+[13.585s] writing list of installed files to '/home/robotics/desktop_ws/build/test_auto/install.log'
+[13.776s] Invoked command in '/home/robotics/desktop_ws/src/turtlebot3/test_auto' returned '0': PYTHONPATH=/home/robotics/desktop_ws/build/test_auto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/test_auto build --build-base /home/robotics/desktop_ws/build/test_auto/build install --record /home/robotics/desktop_ws/build/test_auto/install.log --single-version-externally-managed install_data

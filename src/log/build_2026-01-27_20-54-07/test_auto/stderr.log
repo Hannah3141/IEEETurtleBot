@@ -1,0 +1,5 @@
+  File "/home/robotics/desktop_ws/src/install/test_auto/lib/python3.10/site-packages/test_auto/test_auto.py", line 113
+    self.get_logger().info('msg.pose.pose.position.x' + str(msg.pose.pose.position.x)
+                          ^
+SyntaxError: '(' was never closed
+

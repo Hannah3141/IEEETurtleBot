@@ -1,0 +1,30 @@
+[4.984s] Invoking command in '/home/robotics/desktop_ws/src/turtlebot3/multicontrol': PYTHONPATH=/home/robotics/desktop_ws/build/multicontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/multicontrol build --build-base /home/robotics/desktop_ws/build/multicontrol/build install --record /home/robotics/desktop_ws/build/multicontrol/install.log --single-version-externally-managed install_data
+[6.629s] running egg_info
+[6.632s] writing ../../../build/multicontrol/multicontrol.egg-info/PKG-INFO
+[6.660s] writing dependency_links to ../../../build/multicontrol/multicontrol.egg-info/dependency_links.txt
+[6.662s] writing entry points to ../../../build/multicontrol/multicontrol.egg-info/entry_points.txt
+[6.663s] writing requirements to ../../../build/multicontrol/multicontrol.egg-info/requires.txt
+[6.664s] writing top-level names to ../../../build/multicontrol/multicontrol.egg-info/top_level.txt
+[6.673s] reading manifest file '../../../build/multicontrol/multicontrol.egg-info/SOURCES.txt'
+[6.692s] adding license file 'LICENSE'
+[6.696s] writing manifest file '../../../build/multicontrol/multicontrol.egg-info/SOURCES.txt'
+[6.698s] running build
+[6.698s] running build_py
+[6.720s] copying multicontrol/__init__.py -> /home/robotics/desktop_ws/build/multicontrol/build/lib/multicontrol
+[6.722s] copying multicontrol/mynode.py -> /home/robotics/desktop_ws/build/multicontrol/build/lib/multicontrol
+[6.724s] running install
+[6.726s] running install_lib
+[6.731s] copying /home/robotics/desktop_ws/build/multicontrol/build/lib/multicontrol/__init__.py -> /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol
+[6.736s] copying /home/robotics/desktop_ws/build/multicontrol/build/lib/multicontrol/mynode.py -> /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol
+[6.740s] byte-compiling /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol/__init__.py to __init__.cpython-310.pyc
+[6.743s] byte-compiling /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol/mynode.py to mynode.cpython-310.pyc
+[6.750s] running install_data
+[6.751s] copying resource/multicontrol -> /home/robotics/desktop_ws/install/multicontrol/share/ament_index/resource_index/packages
+[6.754s] copying package.xml -> /home/robotics/desktop_ws/install/multicontrol/share/multicontrol
+[6.755s] running install_egg_info
+[6.766s] removing '/home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol-0.0.0-py3.10.egg-info' (and everything under it)
+[6.769s] Copying ../../../build/multicontrol/multicontrol.egg-info to /home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages/multicontrol-0.0.0-py3.10.egg-info
+[6.780s] running install_scripts
+[6.889s] Installing mynode script to /home/robotics/desktop_ws/install/multicontrol/lib/multicontrol
+[6.891s] writing list of installed files to '/home/robotics/desktop_ws/build/multicontrol/install.log'
+[7.039s] Invoked command in '/home/robotics/desktop_ws/src/turtlebot3/multicontrol' returned '0': PYTHONPATH=/home/robotics/desktop_ws/build/multicontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/multicontrol build --build-base /home/robotics/desktop_ws/build/multicontrol/build install --record /home/robotics/desktop_ws/build/multicontrol/install.log --single-version-externally-managed install_data

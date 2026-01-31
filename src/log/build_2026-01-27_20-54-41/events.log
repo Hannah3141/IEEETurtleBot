@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.001647] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.002310] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.003066] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.003583] (-) JobUnselected: {'identifier': 'multicontrol'}
+[0.003844] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.004016] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.004172] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.004334] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.004535] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.004785] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.005666] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.005946] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.006210] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.006543] (test_auto) JobQueued: {'identifier': 'test_auto', 'dependencies': OrderedDict()}
+[0.006718] (test_auto) JobStarted: {'identifier': 'test_auto'}
+[0.098950] (-) TimerEvent: {}
+[0.199537] (-) TimerEvent: {}
+[0.300182] (-) TimerEvent: {}
+[0.400804] (-) TimerEvent: {}
+[0.501465] (-) TimerEvent: {}
+[0.602072] (-) TimerEvent: {}
+[0.702816] (-) TimerEvent: {}
+[0.803810] (-) TimerEvent: {}
+[0.904554] (-) TimerEvent: {}
+[1.005234] (-) TimerEvent: {}
+[1.106035] (-) TimerEvent: {}
+[1.207344] (-) TimerEvent: {}
+[1.307989] (-) TimerEvent: {}
+[1.408640] (-) TimerEvent: {}
+[1.509310] (-) TimerEvent: {}
+[1.610023] (-) TimerEvent: {}
+[1.710799] (-) TimerEvent: {}
+[1.811453] (-) TimerEvent: {}
+[1.912051] (-) TimerEvent: {}
+[2.012663] (-) TimerEvent: {}
+[2.113426] (-) TimerEvent: {}
+[2.214226] (-) TimerEvent: {}
+[2.314896] (-) TimerEvent: {}
+[2.415700] (-) TimerEvent: {}
+[2.516317] (-) TimerEvent: {}
+[2.616965] (-) TimerEvent: {}
+[2.717741] (-) TimerEvent: {}
+[2.770918] (test_auto) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_auto', 'build', '--build-base', '/home/robotics/desktop_ws/src/build/test_auto/build', 'install', '--record', '/home/robotics/desktop_ws/src/build/test_auto/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robotics/desktop_ws/src/turtlebot3/test_auto', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotics', 'SSH_CLIENT': '192.168.3.92 20931 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robotics/desktop_ws/install/turtlebot3_msgs/lib:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/robotics/desktop_ws/install/dynamixel_sdk/lib:/home/robotics/pi_ws/install/coin_d4_driver/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robotics', 'OLDPWD': '/home/robotics/desktop_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/robotics/pi_ws/install:/home/robotics/desktop_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotics', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/robotics/desktop_ws/install/turtlebot3:/home/robotics/desktop_ws/install/turtlebot3_teleop:/home/robotics/desktop_ws/install/turtlebot3_bringup:/home/robotics/desktop_ws/install/turtlebot3_node:/home/robotics/desktop_ws/install/turtlebot3_navigation2:/home/robotics/desktop_ws/install/turtlebot3_example:/home/robotics/desktop_ws/install/turtlebot3_msgs:/home/robotics/desktop_ws/install/turtlebot3_description:/home/robotics/desktop_ws/install/turtlebot3_cartographer:/home/robotics/desktop_ws/install/test_auto:/home/robotics/desktop_ws/install/multicontrol:/home/robotics/desktop_ws/install/dynamixel_sdk_examples:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces:/home/robotics/desktop_ws/install/dynamixel_sdk:/home/robotics/pi_ws/install/turtlebot3:/home/robotics/pi_ws/install/turtlebot3_teleop:/home/robotics/pi_ws/install/turtlebot3_bringup:/home/robotics/pi_ws/install/turtlebot3_node:/home/robotics/pi_ws/install/turtlebot3_example:/home/robotics/pi_ws/install/turtlebot3_description:/home/robotics/pi_ws/install/piSub:/home/robotics/pi_ws/install/ld08_driver:/home/robotics/pi_ws/install/coin_d4_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/robotics/desktop_ws/src/build/test_auto', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.3.92 20931 192.168.3.119 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/robotics/desktop_ws/src/build/test_auto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotics/desktop_ws/src/install/test_auto/lib/python3.10/site-packages:/home/robotics/desktop_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/robotics/desktop_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/robotics/desktop_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/robotics/desktop_ws/install/test_auto/lib/python3.10/site-packages:/home/robotics/desktop_ws/install/multicontrol/lib/python3.10/site-packages:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/robotics/desktop_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/robotics/pi_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/robotics/pi_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/robotics/pi_ws/install/piSub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robotics/desktop_ws/install/turtlebot3:/home/robotics/desktop_ws/install/turtlebot3_bringup:/home/robotics/desktop_ws/install/turtlebot3_node:/home/robotics/desktop_ws/install/turtlebot3_navigation2:/home/robotics/desktop_ws/install/turtlebot3_msgs:/home/robotics/desktop_ws/install/turtlebot3_description:/home/robotics/desktop_ws/install/turtlebot3_cartographer:/home/robotics/desktop_ws/install/dynamixel_sdk_examples:/home/robotics/desktop_ws/install/dynamixel_sdk_custom_interfaces:/home/robotics/desktop_ws/install/dynamixel_sdk:/home/robotics/pi_ws/install/turtlebot3:/home/robotics/pi_ws/install/turtlebot3_bringup:/home/robotics/pi_ws/install/turtlebot3_node:/home/robotics/pi_ws/install/turtlebot3_description:/home/robotics/pi_ws/install/ld08_driver:/home/robotics/pi_ws/install/coin_d4_driver'}, 'shell': False}
+[2.817889] (-) TimerEvent: {}
+[2.918499] (-) TimerEvent: {}
+[3.019159] (-) TimerEvent: {}
+[3.119826] (-) TimerEvent: {}
+[3.220530] (-) TimerEvent: {}
+[3.321206] (-) TimerEvent: {}
+[3.421825] (-) TimerEvent: {}
+[3.522403] (-) TimerEvent: {}
+[3.622997] (-) TimerEvent: {}
+[3.723591] (-) TimerEvent: {}
+[3.791893] (test_auto) StdoutLine: {'line': b'running egg_info\n'}
+[3.794528] (test_auto) StdoutLine: {'line': b'writing ../../build/test_auto/test_auto.egg-info/PKG-INFO\n'}
+[3.795569] (test_auto) StdoutLine: {'line': b'writing dependency_links to ../../build/test_auto/test_auto.egg-info/dependency_links.txt\n'}
+[3.796448] (test_auto) StdoutLine: {'line': b'writing entry points to ../../build/test_auto/test_auto.egg-info/entry_points.txt\n'}
+[3.797281] (test_auto) StdoutLine: {'line': b'writing requirements to ../../build/test_auto/test_auto.egg-info/requires.txt\n'}
+[3.798016] (test_auto) StdoutLine: {'line': b'writing top-level names to ../../build/test_auto/test_auto.egg-info/top_level.txt\n'}
+[3.805887] (test_auto) StdoutLine: {'line': b"reading manifest file '../../build/test_auto/test_auto.egg-info/SOURCES.txt'\n"}
+[3.807238] (test_auto) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.809781] (test_auto) StdoutLine: {'line': b"writing manifest file '../../build/test_auto/test_auto.egg-info/SOURCES.txt'\n"}
+[3.810417] (test_auto) StdoutLine: {'line': b'running build\n'}
+[3.810855] (test_auto) StdoutLine: {'line': b'running build_py\n'}
+[3.811676] (test_auto) StdoutLine: {'line': b'copying test_auto/test_auto.py -> /home/robotics/desktop_ws/src/build/test_auto/build/lib/test_auto\n'}
+[3.814026] (test_auto) StdoutLine: {'line': b'running install\n'}
+[3.815194] (test_auto) StdoutLine: {'line': b'running install_lib\n'}
+[3.818573] (test_auto) StdoutLine: {'line': b'copying /home/robotics/desktop_ws/src/build/test_auto/build/lib/test_auto/test_auto.py -> /home/robotics/desktop_ws/src/install/test_auto/lib/python3.10/site-packages/test_auto\n'}
+[3.822171] (test_auto) StdoutLine: {'line': b'byte-compiling /home/robotics/desktop_ws/src/install/test_auto/lib/python3.10/site-packages/test_auto/test_auto.py to test_auto.cpython-310.pyc\n'}
+[3.823765] (-) TimerEvent: {}
+[3.829641] (test_auto) StdoutLine: {'line': b'running install_data\n'}
+[3.830283] (test_auto) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.837405] (test_auto) StdoutLine: {'line': b"removing '/home/robotics/desktop_ws/src/install/test_auto/lib/python3.10/site-packages/test_auto-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.839005] (test_auto) StdoutLine: {'line': b'Copying ../../build/test_auto/test_auto.egg-info to /home/robotics/desktop_ws/src/install/test_auto/lib/python3.10/site-packages/test_auto-0.0.0-py3.10.egg-info\n'}
+[3.843993] (test_auto) StdoutLine: {'line': b'running install_scripts\n'}
+[3.923933] (-) TimerEvent: {}
+[3.926702] (test_auto) StdoutLine: {'line': b'Installing comp_auto script to /home/robotics/desktop_ws/src/install/test_auto/lib/test_auto\n'}
+[3.927555] (test_auto) StdoutLine: {'line': b'Installing piPub script to /home/robotics/desktop_ws/src/install/test_auto/lib/test_auto\n'}
+[3.928322] (test_auto) StdoutLine: {'line': b'Installing test_auto script to /home/robotics/desktop_ws/src/install/test_auto/lib/test_auto\n'}
+[3.930151] (test_auto) StdoutLine: {'line': b"writing list of installed files to '/home/robotics/desktop_ws/src/build/test_auto/install.log'\n"}
+[4.024258] (-) TimerEvent: {}
+[4.045539] (test_auto) CommandEnded: {'returncode': 0}
+[4.093413] (test_auto) JobEnded: {'identifier': 'test_auto', 'rc': 0}
+[4.095894] (-) EventReactorShutdown: {}
